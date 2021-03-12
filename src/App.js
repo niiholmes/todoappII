@@ -6,13 +6,13 @@ import './App.css';
 
 function App(props) {
 
-  const[task, setTask]= useState(props.tasks)
+  const[tasks, setTasks]= useState(props.tasks)
 
   const addTask = (name) => {
     alert(name)
   }
 
-  const taskList = props.tasks.map(task =>  (
+  const taskList = tasks.map(task =>  (
 
   <Todo
    id ={task.id} 
