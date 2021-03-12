@@ -1,0 +1,23 @@
+.header{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: palevioletred;
+}
+
+.inputBar{
+    height: 40px;
+    width: 500px;
+    margin-right: 10px;
+}
+
+.addBar{
+    width: 70px;
+    height:47px;
+    
+}
+
+.inputContainer{
+    margin-top: 10px;
+    margin-left: 29%;
+}
