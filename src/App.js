@@ -1,10 +1,11 @@
-import Prime from './Components/Prime'
+
 import './App.css';
 
 function App() {
-  return (
+
+  return(
     <div>
-      <Prime/>
+
       
     </div>
   );
