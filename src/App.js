@@ -79,10 +79,12 @@ function App(props) {
    const tasksNoun = taskList.length !== 1 ? 'tasks' : 'task'
    const headingText = `${taskList.length} tasks remaining`
 
+
+   
   return (
     <div className="todoapp stack-large">
 
-      <h1>GirlFriday</h1>
+      <h1>todos</h1>
 
       <Form addTask={addTask}/>
 
